@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 # Data
-data/*.csv
+data/dpt2020.csv
+data/*.xlsx
