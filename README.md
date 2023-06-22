@@ -36,3 +36,8 @@ The project will be graded based on the final implementation. The grading criter
 ## Getting Started
 
 To get started with this project, clone this repository and follow the instructions in the project guidelines.
+
+### Initial-implementation
+
+*Visualization 1*
+To observe Tableau's file, you have to open the file with Tableau software and precise where 'data2020.csv' is on your computer.
