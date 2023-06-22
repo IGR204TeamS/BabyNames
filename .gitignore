@@ -162,3 +162,5 @@ cython_debug/
 # Data
 data/dpt2020.csv
 data/*.xlsx
+babynames/html/*.html
+babynames/*.html
