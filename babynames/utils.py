@@ -76,8 +76,9 @@ def dms_to_dd(dms):
     Returns:
     float: The equivalent value in decimal degrees.
     """
+    # example 5°20'56'' E, 46°05'58''
     degrees, minutes, seconds, direction = re.split('[°\'"]+', dms)
-    dd = float(degrees) + float(minutes)/60 + float(seconds)/(60*60);
-    if direction in ('S','O'):
+    dd = float(degrees) + float(minutes)/60 + float(seconds)/(60*60)
+    if str.strip(direction) in ('S','O'):
         dd *= -1
     return dd
